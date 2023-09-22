@@ -6,6 +6,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <LandingPage />
     },
+    {
+        path: "exercise/:id",
+        element: <LandingPage />
+    },
 ]);
 
 export {router};

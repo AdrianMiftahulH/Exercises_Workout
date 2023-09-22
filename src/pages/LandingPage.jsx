@@ -1,6 +1,13 @@
+import { Exercises, Hero, SearchExercises } from "../components/fragments"
+import UserLayout from "../components/layouts/UserLayout"
+
 const LandingPage = () => {
     return (
-        <h2>haii</h2>
+        <UserLayout>
+            <Hero />
+            <SearchExercises />
+            <Exercises />
+        </UserLayout>
     )
 }
 
